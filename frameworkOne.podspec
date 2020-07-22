@@ -83,7 +83,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://github.com/tunb-teko/storage-for-libs/releases/download/0.0.0/frameworkOne.zip" }
 
   spec.dependency 'Alamofire', '~> 5.2'
-  # spec.dependency 'FirebaseFirestore'
+  spec.dependency 'FirebaseFirestore'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -95,8 +95,8 @@ Pod::Spec.new do |spec|
 
   spec.exclude_files = "Classes/Exclude"
 
-  spec.source_files = "frameworkOne.framework/Headers/*.h"
-  spec.public_header_files = "frameworkOne.framework/Headers/*.h"
+  # spec.source_files = "frameworkOne.framework/Headers/*.h"
+  # spec.public_header_files = "frameworkOne.framework/Headers/*.h"
 
   
 
