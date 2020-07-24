@@ -1,0 +1,11 @@
+framework module frameworkOne {
+  umbrella header "frameworkOne.h"
+
+  export *
+  module * { export * }
+}
+
+module frameworkOne.Swift {
+    header "frameworkOne-Swift.h"
+    requires objc
+}
