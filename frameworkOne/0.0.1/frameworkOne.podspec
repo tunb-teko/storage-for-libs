@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = "frameworkOne.framework"
   spec.source       = { :http => "https://github.com/tunb-teko/storage-for-libs/releases/download/0.0.0/frameworkOne.zip" }
 
-  spec.dependency 'Alamofire', '~> 5.2'
+  # spec.dependency 'Alamofire', '~> 5.2'
   # spec.dependency 'FirebaseFirestore'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
