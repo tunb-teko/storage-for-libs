@@ -1,0 +1,11 @@
+framework module frameworkTwoWithPod {
+  umbrella header "frameworkTwoWithPod.h"
+
+  export *
+  module * { export * }
+}
+
+module frameworkTwoWithPod.Swift {
+    header "frameworkTwoWithPod-Swift.h"
+    requires objc
+}
